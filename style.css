@@ -1,0 +1,76 @@
+body {
+    background-color: lightslategray;
+}
+
+.intro {
+    margin: 0em 20%;
+}
+
+table,th,td,tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.subject {
+    border: 1px solid lightsteelblue;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    min-width: 20em;
+}
+
+.place {
+    border: 1px solid snow;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.ponte {
+    display: flex;
+    align-items: center;
+}
+
+.mtn {
+    display: flex;
+    align-items: center;
+}
+
+.victoria {
+    display: flex;
+    align-items: center;
+}
+
+
+@media (min-width: 960px) {
+
+    h1 {
+        font-style: italic;
+        padding: 0em 10px;
+    }
+
+    .intro {
+        display: flex;
+        align-items: center;
+        margin-left: 20%;
+        margin-top: 4%;
+        padding: 4%;
+    }
+
+    .city {
+        display: flex;
+        align-items: center;
+    }
+
+    .subjects {
+        display: flex;
+        margin: 3px;
+        padding: 5em;
+    }
+
+    .places {
+        display: flex;
+        margin: 3px;
+        padding: 5em;
+    }
+}
